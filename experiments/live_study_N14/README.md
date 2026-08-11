@@ -11,7 +11,7 @@ instruction between consecutive poses.
 ## Contents
 
 * `logs_anonymised/U01.txt` … `U14.txt` — one full execution log per participant.
-* `metrics/` — per-participant measurement tables and descriptive statistics.
+* `metrics/` — per-participant measurement tables.
 * `protocol/Command_Protocol_144.docx` — the command script read by participants.
 * `protocol/target_poses/` — the eight target arm configurations.
 
