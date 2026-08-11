@@ -1,0 +1,29 @@
+PS C:\Users\user\Desktop\OpenSIM Python> & C:/Users/user/miniconda3/envs/das3_env/python.exe "c:/Users/user/Desktop/OpenSIM Python/train_slm.py"
+W0521 08:16:08.203000 20408 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+
+--- 1. LOADING CUSTOM TOKENIZER ---
+
+--- 2. INITIALIZING A BLANK MODEL ARCHITECTURE ---
+C:\Users\user\miniconda3\envs\das3_env\Lib\site-packages\huggingface_hub\file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Model initialized with 44,189,193 parameters.
+
+--- 3. LOADING & PROCESSING DATASET ---
+
+Applying Data Enhancements to train.json...
+Dataset expanded from 2872 to 14189 items via Priority Boosting.
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 14189/14189 [00:00<00:00, 114860.87 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 719/719 [00:00<00:00, 167641.59 examples/s]
+
+--- 4. CONFIGURING TRAINING HYPERPARAMETERS ---
+C:\Users\user\miniconda3\envs\das3_env\Lib\site-packages\accelerate\accelerator.py:436: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys(['dispatch_batches', 'split_batches', 'even_batches', 'use_seedable_sampler']). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False, even_batches=True, use_seedable_sampler=True)
+  warnings.warn(
+
+--- 5. FINE-TUNING THE AI (Training from Scratch) ---
+  0%|                                                                                                                                                                                           | 0/53220 [00:00<?, ?it/s]C:\Users\user\miniconda3\envs\das3_env\Lib\site-packages\torch\utils\data\dataloader.py:775: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+{'loss': 2.2403, 'grad_norm': 9.274263381958008, 'learning_rate': 5e-06, 'epoch': 0.01}                                                                                                                                   
+{'loss': 2.0892, 'grad_norm': 6.54975700378418, 'learning_rate': 1e-05, 'epoch': 0.01}                                                                                                                                    
+{'loss': 2.1034, 'grad_norm': 8.635895729064941, 'learning_rate': 1.5e-05, 'epoch': 0.02}                                                                                                                                 
+{'loss': 2.1502, 'grad_norm': 7.931552886962891, 'learning_rate': 2e-05, 'epoch': 0.02}      

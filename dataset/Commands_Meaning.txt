@@ -1,0 +1,13 @@
+Stop: Stop the Arm
+
+
+Rest: Relax the Arm
+
+
+Shoulder: Shoulder, Upper Arm, Upper Limb, Arm
+
+
+Elbow: Elbow, Forearm
+
+
+Wrist: Wrist, Hand

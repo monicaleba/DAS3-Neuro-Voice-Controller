@@ -1,0 +1,34 @@
+--------------------------------------------------
+Running Duplicate Analysis...
+⚠️  WARNING: Duplicate Expressions Found!
+Review the following expressions (they will be automatically removed):
+   - 'lift the forearm higher' ➡️ Found in: [data_files/pull.txt, data_files/pull.txt]
+
+Applying DeepMind Lab Data Processing Standards...
+🧹 Removed 1 duplicate expressions from the training pool.
+⚖️  Balanced all classes to exactly 399 samples each.
+
+==================================================
+✅ DATASET PREPARATION COMPLETE!
+   - Generated: command_schema.py
+   - Saved: train.json (2872 total samples)
+   - Saved: val.json (719 total samples)
+==================================================
+You can now run your training script!
+PS C:\Users\user\Desktop\OpenSIM Python> & C:/Users/user/miniconda3/envs/das3_env/python.exe "c:/Users/user/Desktop/OpenSIM Python/build_tokenizer.py"
+Loading text data from train.json...
+Loading base DistilBERT tokenizer blueprint...
+C:\Users\user\miniconda3\envs\das3_env\Lib\site-packages\huggingface_hub\file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Training new tokenizer with a max vocabulary of 1500...
+[00:00:00] Pre-processing sequences       █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 0        /        0
+[00:00:00] Tokenize words                 █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 396      /      396
+[00:00:00] Count pairs                    █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 396      /      396
+[00:00:00] Compute merges                 █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ 813      /      813
+
+==================================================
+✅ CUSTOM TOKENIZER BUILT SUCCESSFULLY!
+   - Actual Vocabulary Size : 872 tokens
+   - Saved to Directory     : ./custom_das3_tokenizer/
+==================================================
+Test it: The AI now understands 'end-effector' as a native concept!
