@@ -114,16 +114,16 @@ removed, all classes clamped to 399 -> 3,591 balanced, stratified 80/20 -> 2,872
 
 If you use this dataset, the code, or the evaluation logs, please cite the paper:
 
-> Emanuel Muntean, Monica Leba, Andreea Ionica, "Hearing It Right, Doing It Safely: An
-> On-Device Small-Language-Model Architecture for Voice-Controlled Assistive Manipulation",
-> submitted to *International Journal of Human-Computer Studies*, 2026.
+> Emanuel Muntean, Monica Leba, Andreea Ionica, "Hearing It Right, Doing It Safely:
+> A Reflex-Inspired Safety Gatekeeper for Voice-Controlled Exoskeleton Arm Manipulation",
+> submitted to *Biomimetics*, special issue "Advanced Service Robots: Exoskeleton Robots 2026", 2026.
 
 ```bibtex
 @article{muntean2026hearing,
   author  = {Muntean, Emanuel and Leba, Monica and Ionica, Andreea},
-  title   = {Hearing It Right, Doing It Safely: An On-Device Small-Language-Model
-             Architecture for Voice-Controlled Assistive Manipulation},
-  journal = {International Journal of Human-Computer Studies},
+  title   = {Hearing It Right, Doing It Safely: A Reflex-Inspired Safety
+             Gatekeeper for Voice-Controlled Exoskeleton Arm Manipulation},
+  journal = {Biomimetics},
   year    = {2026},
   note    = {Submitted}
 }
